@@ -1,7 +1,7 @@
 #!/bin/sh -e
 # tiff-4.0.3.sh by Jon Limle <jonlimle123@yahoo.com> (Updated by Spork Schivago)
 
-LIBTIFF="tiff-4.0.3"
+LIBTIFF="tiff-4.0.9"
 
 ## Download the source code.
 wget --tries 5 --timeout 15 --continue \
