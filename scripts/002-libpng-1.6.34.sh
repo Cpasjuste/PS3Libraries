@@ -1,7 +1,7 @@
 #!/bin/sh -e
-# libpng-1.6.12.sh by Dan Peori (danpeori@oopo.net) (updated by Spork Schivago)
+# libpng-1.6.34.sh by Dan Peori (danpeori@oopo.net) (updated by Spork Schivago)
 
-LIBPNG_VER="1.6.12"
+LIBPNG_VER="1.6.34"
 LIBPNG="libpng-${LIBPNG_VER}"
 ZLIBLIB="${PS3DEV}/portlibs/ppu/lib" export ZLIBLIB
 ZLIBINC="${PS3DEV}/portlibs/ppu/include" export ZLIBINC

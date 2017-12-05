@@ -1,0 +1,12 @@
+diff -burN libpng-1.6.34/Makefile.in libpng-1.6.34-PS3/Makefile.in 
+--- libpng-1.6.34/Makefile.in	2017-09-29 10:41:05.000000000 +0200
++++ libpng-1.6.34-PS3/Makefile.in	2017-12-05 13:13:59.144661877 +0100
+@@ -102,7 +102,7 @@
+ host_triplet = @host@
+ check_PROGRAMS = pngtest$(EXEEXT) pngunknown$(EXEEXT) \
+ 	pngstest$(EXEEXT) pngvalid$(EXEEXT) pngimage$(EXEEXT) \
+-	pngcp$(EXEEXT) $(am__EXEEXT_1)
++	$(am__EXEEXT_1)
+ @HAVE_CLOCK_GETTIME_TRUE@am__append_1 = timepng
+ bin_PROGRAMS = pngfix$(EXEEXT) png-fix-itxt$(EXEEXT)
+ @PNG_ARM_NEON_TRUE@am__append_2 = arm/arm_init.c\

@@ -1,7 +1,7 @@
 #!/bin/sh -e
-# zlib-1.2.8.sh by Dan Peori (danpeori@oopo.net) (Updated by Spork Schivago)
+# zlib-1.2.11.sh by Dan Peori (danpeori@oopo.net) (Updated by Spork Schivago)
 
-ZLIB="zlib-1.2.8"
+ZLIB="zlib-1.2.11"
 
 ## Download the source code.
 wget --continue http://zlib.net/${ZLIB}.tar.gz
