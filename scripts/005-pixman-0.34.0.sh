@@ -1,7 +1,7 @@
 #!/bin/sh -e
-# pixman-0.32.2.sh by Dan Peori (danpeori@oopo.net) (Updated by Spork Schivago)
+# pixman-0.34.0.sh by Dan Peori (danpeori@oopo.net) (Updated by Spork Schivago)
 
-PIXMAN="pixman-0.32.2"
+PIXMAN="pixman-0.34.0"
 
 ## Download the source code.
 wget --continue http://cairographics.org/releases/${PIXMAN}.tar.gz;
